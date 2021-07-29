@@ -14,7 +14,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    position: fixed;
+    position: static;
   background: linear-gradient(124deg, rgb(255, 173, 214), #ffa34d, rgb(209, 255, 163), rgb(255, 147, 255), #97f7b4, #97faff, #a29dec, #f1dbf3, #ffa2f3);
   background-size: 1800% 1800%;
   
