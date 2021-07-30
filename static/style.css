@@ -44,10 +44,14 @@
       100%{background-position:0% 82%}
   }
 
-h1 {
+#opener-text {
     margin: 20% 20%;
     font-size: 140px;
     font-family: 'Monoton', cursive;
+}
+
+h1 {
+    
 }
 
 h2 {
@@ -120,7 +124,7 @@ text-decoration:underline;
     right: 35px;
 }
 
-.container-fluid{
+.yontainer{
     min-height: 820px;
 }
 
@@ -151,3 +155,4 @@ main {
 .col {
     min-height: 25%;
 }
+
