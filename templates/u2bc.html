@@ -13,30 +13,62 @@
 
 <body>
     <div class="wrapper">
-    <nav class="navbar sticky-top navbar-dark bg-transparent">
-        <div id="myNav" class="overlay navbar navbar-sticky-top">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="../templates/home.html">HOME</a>
-                <a href="../templates/releases.html">RELEASES</a>
-                <a href="../templates/artists.html">ARTISTS</a>
+        <nav class="navbar sticky-top navbar-dark bg-transparent">
+            <div id="myNav" class="overlay navbar navbar-sticky-top">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="../templates/home.html">HOME</a>
+                    <a href="../templates/releases.html">RELEASES</a>
+                    <a href="../templates/artists.html">ARTISTS</a>
+                </div>
             </div>
-        </div>
-        <span id="nav-brand" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; used to be cool</span>
-    </nav>
-    <div class="container-fluid flex-column">
-        <div class="row m-5">
-            <div class="col m-2" style="height: 25%;">
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
-                <h2 class="text-center m-5">used to be cool</h2>
+            <span id="nav-brand" style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; used to be
+                cool</span>
+        </nav>
+        <div class="container-fluid flex-column">
+            <div class="row m-2 justify-content-center">
+                <div class="col-7 m-5 p-5 rounded border border-5 border-success bg-light" style="height: 25%;">
+                    <h1 class="display-5 text-center m-5">used to be cool</h1>
+                    <img src="../assets/alpha_falcon.jpeg" alt="Alpha Falcon"
+                        class="img-fluid rounded border border-5 border-primary">
+                </div>
             </div>
+            <div class="row m-5">
+                <div class="col-7 m-2 rounded border border-5 border-danger bg-light">
+                    <h2 class="text-left m-5">About:</h2>
+                    <p class="h5 text-left m-5">used to be cool is a beatmaker from Dallas, TX. He has been making beats
+                        as long as he's been capable of holding a pencil. Currently on a mission to cook the hardest
+                        beats the human ear has ever heard. u2bc co-founded VQC in 2020.</p>
+                </div>
+                <div class="col m-2 rounded border border-5 border-warning bg-light">
+                    <a href="https://open.spotify.com/artist/4O686kFJUVKePSNUnzllgv?si=ByYlzy1CS2y3NEpJY21-4w&dl_branch=1"
+                        class="text-decoration-none">
+                        <p class="h4 text-dark text-center m-5">Spotify</p>
+                    </a>
+                    <a href="https://music.apple.com/us/artist/used-to-be-cool/1552546177" class="text-decoration-none">
+                        <p class="h4 text-dark text-center m-5">Apple</p>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCGQJsHaBr-_X8JvCmaSEu8A/featured"
+                        class="text-decoration-none">
+                        <p class="h4 text-dark text-center m-5">Youtube</p>
+                    </a>
+                    <a href="../templates/u2bc.html" class="text-decoration-none">
+                        <p class="h4 text-dark text-center m-5">Shows</p>
+                    </a>
+                    <a href="../templates/u2bc.html" class="text-decoration-none">
+                        <p class="h4 text-dark text-center m-5">Merch</p>
+                    </a>
+                </div>
+            </div>
+            <div class="m-5 p-5 rounded border border-5 border-primary bg-light justify-content-center">
+                <h3 class="text-left m-5 text-center">Glass Family Sketches: Vol. 0</h3>
+                <iframe width="300" height="200" class="rounded border border-5 border-success"
+                    src="https://www.youtube.com/embed/Yq1kER1OWd0?controls=0" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
         </div>
-    </div>
     </div>
     <script>
         function openNav() {

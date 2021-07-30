@@ -46,8 +46,8 @@
 
 #opener-text {
     margin: 20% 20%;
-    font-size: 140px;
-    font-family: 'Monoton', cursive;
+    font-size: 110px;
+    /* font-family: 'Monoton', cursive; */
 }
 
 h1 {
@@ -55,14 +55,14 @@ h1 {
 }
 
 h2 {
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px rgb(255, 229, 252);
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px rgb(0, 0, 0);
     font-weight: bold;
 }
 
 h3 {
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px rgb(255, 221, 246);
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 4px rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -85,7 +85,7 @@ text-decoration:underline;
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
-    opacity: .5;
+    opacity: .9;
 }
 
 .overlay-content {
@@ -156,3 +156,6 @@ main {
     min-height: 25%;
 }
 
+h3:hover{
+    -webkit-transform: scale(1.2);
+}
